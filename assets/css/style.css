@@ -23,5 +23,35 @@ body {
     font-family: 'Noto Sans Mono', monospace;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: var(--color-bg-color)
+}
+h1 {
+    margin-top: 1rem;
+    color: var(--color-text-white);
+}
+#conteiner {
+    display: flex;
+    margin-top: 75px;
+    justify-content: center;
+    align-items: center;
+}
+#conteiner main {
+    display: grid;
+    grid-template-columns: auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+
+}
+.area-foto {
+    max-height: 450px;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid var(--color-yellon);
+    border-radius: 10px;
+}
+.foto img {
+    max-width: 350px;
+    max-height: 350px;
 }
