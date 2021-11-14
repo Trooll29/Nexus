@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;700&family=Nunito:ital,wght@1,700&display=swap');
+:root {
+        /* Cores padroes*/
+    --color-bg-color:#121528;
+    --color-text-white:#e5e5e6;
+    --color-text-yellon: #feb302;
+    --color-yellon: #feb303;
+    --color-cinza-claro: #8b8b8d;
+    --color-cinza-escuro: #424242;
+
+        /* Tamanhos de textos padroes*/
+    --size-text-h1: 40px;
+    --size-text-h2: 23px;
+    --size-text-conteudo: 16px;
+
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Noto Sans Mono', monospace;
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-bg-color)
+}
